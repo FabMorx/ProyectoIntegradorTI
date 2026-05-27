@@ -1,0 +1,36 @@
+/* LAYOUT */
+.layout-container {
+  display: flex;
+
+  min-height: 100vh;
+
+  background: #f8fafc;
+}
+
+/* CONTENT */
+.layout-content {
+  flex: 1;
+
+  margin-left: 280px;
+
+  width: calc(100% - 280px);
+
+  min-height: 100vh;
+}
+
+/* MAIN */
+.layout-main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+
+  .layout-content {
+    margin-left: 90px;
+
+    width: calc(100% - 90px);
+  }
+
+}

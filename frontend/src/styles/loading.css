@@ -1,0 +1,60 @@
+/* GLOBAL LOADING STATE */
+.loading-state {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 20px 0;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #0f172a;
+}
+
+/* DOTS */
+.loading-state .dots {
+  display: flex;
+
+  gap: 4px;
+}
+
+/* DOTS ITEMS */
+.loading-state .dots i {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: #0f172a;
+
+  animation: loadingBounce 1.2s infinite ease-in-out;
+}
+
+.loading-state .dots i:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loading-state .dots i:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* ANIMATION */
+@keyframes loadingBounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+
+    opacity: 0.4;
+  }
+
+  40% {
+    transform: translateY(-6px);
+
+    opacity: 1;
+  }
+}
