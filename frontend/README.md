@@ -6,6 +6,8 @@ Este módulo corresponde al **Frontend** del Sistema Inteligente de Monitoreo TI
 
 La plataforma proporciona una interfaz gráfica moderna y centralizada para supervisar la infraestructura tecnológica, gestionar alertas y visualizar métricas en tiempo real.
 
+Realizado por : Paula Sofia Barreto Moncada, Sebastian Felipe Vargas Quintero, Samuel Oswaldo Avellaneda Guevara, Fabian Isaac Moreno Lopez
+
 ---
 
 ##  Requisitos Previos
